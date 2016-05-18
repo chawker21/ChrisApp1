@@ -1,0 +1,12 @@
+PODS:
+  - SAMGradientView (0.2.1)
+
+DEPENDENCIES:
+  - SAMGradientView (= 0.2.1)
+
+SPEC CHECKSUMS:
+  SAMGradientView: dd5edfe971cea0f1f3369b49f5fb255c0ff3921a
+
+PODFILE CHECKSUM: 4c0ecdb0b880ec26f41f2571cd2d0a5804c8f319
+
+COCOAPODS: 1.0.0

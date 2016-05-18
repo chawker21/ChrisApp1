@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90F00DC498C996EA5014A340 /* libPods-ChrisApp1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1626D00F569EE144EC7D72EC /* libPods-ChrisApp1.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		F3FF15A71CE9001300DB9491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF15A61CE9001300DB9491 /* AppDelegate.swift */; };
 		F3FF15A91CE9001300DB9491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF15A81CE9001300DB9491 /* ViewController.swift */; };
 		F3FF15AC1CE9001300DB9491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FF15AA1CE9001300DB9491 /* Main.storyboard */; };
 		F3FF15AE1CE9001300DB9491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FF15AD1CE9001300DB9491 /* Assets.xcassets */; };
 		F3FF15B11CE9001300DB9491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FF15AF1CE9001300DB9491 /* LaunchScreen.storyboard */; };
+		F3FF15BB1CE9007A00DB9491 /* podfile.c in Sources */ = {isa = PBXBuildFile; fileRef = F3FF15B91CE9007A00DB9491 /* podfile.c */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1626D00F569EE144EC7D72EC /* libPods-ChrisApp1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChrisApp1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8C91AC4DF95B4A489383EF /* Pods-ChrisApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChrisApp1.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChrisApp1/Pods-ChrisApp1.release.xcconfig"; sourceTree = "<group>"; };
+		BA973351B988A18A3B388755 /* Pods-ChrisApp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChrisApp1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChrisApp1/Pods-ChrisApp1.debug.xcconfig"; sourceTree = "<group>"; };
 		F3FF15A31CE9001300DB9491 /* ChrisApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChrisApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FF15A61CE9001300DB9491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3FF15A81CE9001300DB9491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,10 @@
 		F3FF15AD1CE9001300DB9491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3FF15B01CE9001300DB9491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3FF15B21CE9001300DB9491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FF15B81CE9007900DB9491 /* ChrisApp1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChrisApp1-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3FF15B91CE9007A00DB9491 /* podfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = podfile.c; sourceTree = "<group>"; };
+		F3FF15BA1CE9007A00DB9491 /* podfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = podfile.h; sourceTree = "<group>"; };
+		F3FF15BC1CE914D500DB9491 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +38,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F00DC498C996EA5014A340 /* libPods-ChrisApp1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D3F90F1CDE1F61C90FB8C83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA973351B988A18A3B388755 /* Pods-ChrisApp1.debug.xcconfig */,
+				9E8C91AC4DF95B4A489383EF /* Pods-ChrisApp1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3FE73056E3D176E00639F1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1626D00F569EE144EC7D72EC /* libPods-ChrisApp1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3FF159A1CE9001300DB9491 = {
 			isa = PBXGroup;
 			children = (
+				F3FF15BC1CE914D500DB9491 /* Podfile */,
+				F3FF15B91CE9007A00DB9491 /* podfile.c */,
+				F3FF15BA1CE9007A00DB9491 /* podfile.h */,
 				F3FF15A51CE9001300DB9491 /* ChrisApp1 */,
 				F3FF15A41CE9001300DB9491 /* Products */,
+				F3FF15B81CE9007900DB9491 /* ChrisApp1-Bridging-Header.h */,
+				4D3F90F1CDE1F61C90FB8C83 /* Pods */,
+				A3FE73056E3D176E00639F1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3FF15B51CE9001300DB9491 /* Build configuration list for PBXNativeTarget "ChrisApp1" */;
 			buildPhases = (
+				E0BB1C56003AAFF08020622E /* 📦 Check Pods Manifest.lock */,
 				F3FF159F1CE9001300DB9491 /* Sources */,
 				F3FF15A01CE9001300DB9491 /* Frameworks */,
 				F3FF15A11CE9001300DB9491 /* Resources */,
+				177755A675AE58DF283B85F4 /* 📦 Embed Pods Frameworks */,
+				A92FDDD75819B757C55793EF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,6 +126,7 @@
 		F3FF159B1CE9001300DB9491 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Chris Hawker";
 				TargetAttributes = {
@@ -129,6 +166,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		177755A675AE58DF283B85F4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChrisApp1/Pods-ChrisApp1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92FDDD75819B757C55793EF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChrisApp1/Pods-ChrisApp1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0BB1C56003AAFF08020622E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3FF159F1CE9001300DB9491 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -136,6 +221,7 @@
 			files = (
 				F3FF15A91CE9001300DB9491 /* ViewController.swift in Sources */,
 				F3FF15A71CE9001300DB9491 /* AppDelegate.swift in Sources */,
+				F3FF15BB1CE9007A00DB9491 /* podfile.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,23 +332,30 @@
 		};
 		F3FF15B61CE9001300DB9491 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA973351B988A18A3B388755 /* Pods-ChrisApp1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ChrisApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chawker21.ChrisApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChrisApp1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F3FF15B71CE9001300DB9491 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8C91AC4DF95B4A489383EF /* Pods-ChrisApp1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ChrisApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chawker21.ChrisApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChrisApp1-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -285,6 +378,7 @@
 				F3FF15B71CE9001300DB9491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
